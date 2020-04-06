@@ -1,6 +1,6 @@
-import items from './menu.json';
-import itemMenuTemplate from './templates/list-item-menu.hbs';
-import './styles.css';
+import items from '../data/menu.json';
+import itemMenuTemplate from '../templates/list-item-menu.hbs';
+import '../styles/styles.css';
 
 const refs = {
   body: document.querySelector('body'),

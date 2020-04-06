@@ -1,3 +1,6 @@
+
+
+
 # production
 /build
 
@@ -67,4 +70,6 @@ typings/
 .env.test.local
 .env.production.local
 
-
+# lock.json
+package-lock.json
+yarn.lock
